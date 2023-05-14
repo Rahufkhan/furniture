@@ -14,7 +14,7 @@
 </script>
 <script type="text/javascript">
 (function(){
-  emailjs.init("PZnlvK7YReh48pYdi");
+  emailjs.init("5qzZLpMyQo6nBSzut");
 })();
 </script>
   </head>
@@ -37,70 +37,19 @@
             <label>Phone Number</label>
             <input type="number" placeholder="Enter phone number" required />
           </div>
-          <div class="input-box">
-            <label>Birth Date</label>
-            <input type="date" placeholder="Enter birth date" required />
-          </div>
         </div>
-        <div class="gender-box">
-          <h3>Gender</h3>
-          <div class="gender-option">
-            <div class="gender">
-              <input type="radio" id="check-male" name="gender" checked />
-              <label for="check-male">male</label>
-            </div>
-            <div class="gender">
-              <input type="radio" id="check-female" name="gender" />
-              <label for="check-female">Female</label>
-            </div>
-            <div class="gender">
-              <input type="radio" id="check-other" name="gender" />
-              <label for="check-other">prefer not to say</label>
-            </div>
-          </div>
-        </div>
+        
         <div class="input-box address">
           <label>Address</label>
           <input type="text" name="message" id="message" placeholder="Enter street address" required />
           <input type="text" placeholder="Enter street address line 2" required />
           <div class="column">
-            <div class="select-box">
-              <select>
-                <option hidden>Country</option>
-                <option>America</option>
-                <option>Japan</option>
-                <option>India</option>
-                <option>Nepal</option>
-              </select>
-            </div>
             <input type="text" placeholder="Enter your city" required />
-          </div>
-          <div class="column">
-            <input type="text" placeholder="Enter your region" required />
             <input type="number" placeholder="Enter postal code" required />
           </div>
         </div>
 
-
-
-
         <div class="input-box address">
-          <div class="input-box">
-            <label>Prosuct Name</label>
-            <input type="text" placeholder="Enter Product Name" required />
-          </div>
-          <br>
-          <label for="select-box">Pordict condition</label>
-          <div class="select-box">
-            <select>
-              <option>Average</option>
-              <option>Good</option>
-              <option>Excelent</option>
-            </select>
-          </div>
-          
-        
-
             <div class="column">
               <div class="input-box">
                 <label for="column" class="setblock">Choose service</label>
@@ -117,24 +66,18 @@
                 <input type="date" required />
               </div>
           </div>
-          
-        
         </div>
-
         <div class="input-box">
           <label for="exampleInputPassword1">Add Pictures of the items</label>
-          <input type="file" name="fileToUpload" required>
+          <input type="file" name="fileToUpload" id="image1" required>
         </div>
-        
         <div class="input-box">
           <label for="exampleInputPassword1">Add Pictures of the first area where you fill the form</label>
-          <input type="file" name="fileToUpload" required>
+          <input type="file" name="fileToUpload" id="image2" required>
         </div> 
       </div>
         <button onclick="sendMail()">Submit</button>
       </form>
     </section>
-    
-
   </body>
 </html>

@@ -3,10 +3,11 @@ var params = {
     name: document.getElementById("name").value,
     email: document.getElementById("email").value,
     message: document.getElementById("message").value,
+   
 };
 
-const serviceID = "service_7xrrsye";
-const templateID = "template_qst5k4l";
+const serviceID = "service_nevkm1i";
+const templateID = "template_86z0ic7";
 
     emailjs.send(serviceID,templateID,params)
     .then(res=>{
